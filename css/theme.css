@@ -1,0 +1,44 @@
+body {
+  background-color: #212121;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+body #title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 5vw;
+}
+
+body #podpis {
+  font-size: 2vw;
+}
+
+body #button {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* Yep! */
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #212121;
+}
+
+body #button a:active {
+  background-color: none;
+}
+
+body #button a {
+  text-decoration: none;
+  color: #212121;
+}
+/*# sourceMappingURL=theme.css.map */
