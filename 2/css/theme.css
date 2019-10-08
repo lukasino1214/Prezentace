@@ -17,8 +17,24 @@ body #title {
 body #text {
   position: absolute;
   font-size: 2vw;
-  top: 20%;
-  left: 2%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body #text table, body #text td, body #text th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+body #text table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body #text th, body #text td {
+  padding: 15px;
 }
 
 body #button {

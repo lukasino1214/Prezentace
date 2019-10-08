@@ -15,8 +15,23 @@ body {
     #text {
         position: absolute;
         font-size: 2vw;
-        top: 20%;
-        left: 2%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        table, td, th {  
+            border: 1px solid #ddd;
+            text-align: center;
+          }
+          
+          table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          th, td {
+            padding: 15px;
+          }
     }
 
     #button {

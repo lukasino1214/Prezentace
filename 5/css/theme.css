@@ -14,34 +14,31 @@ body #title {
   font-size: 3vw;
 }
 
-body #text {
+body #zdroje {
   position: absolute;
   font-size: 2vw;
   top: 20%;
   left: 2%;
 }
 
-body #button {
+body #text {
   position: absolute;
-  left: 90%;
-  top: 90%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  /* Yep! */
-  border-radius: 15px;
-  background-color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 1vw;
-  color: #212121;
+  font-size: 2vw;
+  margin-top: 30%;
+  margin-left: 30%;
 }
 
-body #button a:active {
+body #text a {
+  text-decoration: none;
+  font-size: white;
+}
+
+body #text a a:active {
   background-color: none;
 }
 
-body #button a {
+body #text a a {
   text-decoration: none;
-  color: #212121;
+  color: white;
 }
 /*# sourceMappingURL=theme.css.map */

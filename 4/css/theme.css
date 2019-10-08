@@ -15,7 +15,7 @@ body #title {
 }
 
 body #text {
-  position: absolute;
+  position: relative;
   font-size: 2vw;
   top: 20%;
   left: 2%;
