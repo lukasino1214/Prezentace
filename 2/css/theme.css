@@ -24,7 +24,6 @@ body #text {
 }
 
 body #text table, body #text td, body #text th {
-  border: 1px solid #ddd;
   text-align: center;
 }
 
